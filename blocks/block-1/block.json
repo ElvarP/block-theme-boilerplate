@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "acf/block-1",
+	"title": "First block",
+	"description": "A test block for new compilation.",
+	"style": "file:./index.scss",
+	"script": "file:./index.js",
+	"category": "design",
+	"icon": "wordpress",
+	"keywords": ["block"],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "block-1.php"
+	},
+	"supports": {
+		"align": true,
+		"anchor": true
+	}
+}

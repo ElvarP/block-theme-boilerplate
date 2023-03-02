@@ -1,0 +1,223 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#fff",
+					"name": "Theme White",
+					"slug": "theme-white"
+				},
+				{
+					"color": "#000",
+					"name": "Theme Black",
+					"slug": "theme-black"
+				},
+				{
+					"color": "#E0FCFF",
+					"name": "primary 1",
+					"slug": "primary-1"
+				},
+				{
+					"color": "#BEF8FD",
+					"name": "primary 2",
+					"slug": "primary-2"
+				},
+				{
+					"color": "#87EAF2",
+					"name": "primary 3",
+					"slug": "primary-3"
+				},
+				{
+					"color": "#54D1DB",
+					"name": "primary 4",
+					"slug": "primary-4"
+				},
+				{
+					"color": "#38BEC9",
+					"name": "primary 5",
+					"slug": "primary-5"
+				},
+				{
+					"color": "#2CB1BC",
+					"name": "primary 6",
+					"slug": "primary-6"
+				},
+				{
+					"color": "#14919B",
+					"name": "primary 7",
+					"slug": "primary-7"
+				},
+				{
+					"color": "#0E7C86",
+					"name": "primary 8",
+					"slug": "primary-8"
+				},
+				{
+					"color": "#0A6C74",
+					"name": "primary 9",
+					"slug": "primary-9"
+				},
+				{
+					"color": "#044E54",
+					"name": "primary 10",
+					"slug": "primary-10"
+				},
+				{
+					"color": "#F0F4F8",
+					"name": "Neutral 1",
+					"slug": "neutral-1"
+				},
+				{
+					"color": "#D9E2EC",
+					"name": "Neutral 2",
+					"slug": "neutral-2"
+				},
+				{
+					"color": "#BCCCDC",
+					"name": "Neutral 3",
+					"slug": "neutral-3"
+				},
+				{
+					"color": "#9FB3C8",
+					"name": "Neutral 4",
+					"slug": "neutral-4"
+				},
+				{
+					"color": "#829AB1",
+					"name": "Neutral 5",
+					"slug": "neutral-5"
+				},
+				{
+					"color": "#627D98",
+					"name": "Neutral 6",
+					"slug": "neutral-6"
+				},
+				{
+					"color": "#486581",
+					"name": "Neutral 7",
+					"slug": "neutral-7"
+				},
+				{
+					"color": "#334E68",
+					"name": "Neutral 8",
+					"slug": "neutral-8"
+				},
+				{
+					"color": "#243B53",
+					"name": "Neutral 9",
+					"slug": "neutral-9"
+				},
+				{
+					"color": "#102A43",
+					"name": "Neutral 10",
+					"slug": "neutral-10"
+				},
+				{
+					"color": "#E3F8FF",
+					"name": "support 1",
+					"slug": "support-1"
+				},
+				{
+					"color": "#B3ECFF",
+					"name": "support 2",
+					"slug": "support-2"
+				},
+				{
+					"color": "#81DEFD",
+					"name": "support 3",
+					"slug": "support-3"
+				},
+				{
+					"color": "#5ED0FA",
+					"name": "support 4",
+					"slug": "support-4"
+				},
+				{
+					"color": "#40C3F7",
+					"name": "support 5",
+					"slug": "support-5"
+				},
+				{
+					"color": "#2BB0ED",
+					"name": "support 6",
+					"slug": "support-6"
+				},
+				{
+					"color": "#1992D4",
+					"name": "support 7",
+					"slug": "support-7"
+				},
+				{
+					"color": "#127FBF",
+					"name": "support 8",
+					"slug": "support-8"
+				},
+				{
+					"color": "#0B69A3",
+					"name": "support 9",
+					"slug": "support-9"
+				},
+				{
+					"color": "#035388",
+					"name": "support 10",
+					"slug": "support-10"
+				}
+			],
+			"gradients": [
+				{
+					"slug": "primary-5-to-support-5",
+					"gradient": "linear-gradient(45deg,var(--wp--preset--color--primary-5),var--wp--preset--color--support-5))",
+					"name": "Primary 5 to Support 5"
+				}
+			]
+		},
+		"typography": {
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell, \"Helvetica Neue\",sans-serif",
+					"slug": "sans-serif",
+					"name": "Sans Serif"
+				},
+				{
+					"fontFamily": "\"Iowan Old Style\", \"Apple Garamond\", Baskerville, \"Times New Roman\", \"Droid Serif\", Times, \"Source Serif Pro\", serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\"",
+					"slug": "serif",
+					"name": "Serif"
+				},
+				{
+					"fontFamily": "Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
+					"slug": "mono",
+					"name": "Monospace"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--white)",
+			"text": "var(--wp--preset--color--neutral-9)"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--primary-5)"
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--support-5)"
+					}
+				}
+			}
+		},
+		"blocks": {
+			"core/button": {
+				"color": {
+					"text": "var(--wp--preset--color--white)",
+					"background": "var(--wp--preset--color--primary-5)"
+				}
+			}
+		}
+	}
+}
