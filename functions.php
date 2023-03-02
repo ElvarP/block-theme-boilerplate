@@ -20,6 +20,22 @@ function add_editor_styles()
 }
 add_action('admin_init', 'add_editor_styles');
 
+function custom_block_category($categories, $post)
+{
+    return array_merge(
+
+        array(
+            array(
+                'slug' => 'custom',
+                'title' => __('Custom Blocks', 'textdomain'),
+            ),
+        ),
+        $categories
+    );
+}
+add_filter('block_categories_all', 'custom_block_category', 10, 2);
+
+
 
 
 
