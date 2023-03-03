@@ -1,0 +1,179 @@
+{
+	"version": 2,
+	"title": "Palette 2 Blue",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"_comment": "primary color is Blue"
+				},
+				{
+					"color": "#fff",
+					"name": "Theme White",
+					"slug": "theme-white"
+				},
+				{
+					"color": "#000",
+					"name": "Theme Black",
+					"slug": "theme-black"
+				},
+				{
+					"slug": "primary-1",
+					"name": "Primary 1",
+					"color": "#DCEEFB"
+				},
+				{
+					"slug": "primary-2",
+					"color": "#B6E0FE",
+					"name": "Primary 2"
+				},
+				{
+					"slug": "primary-3",
+					"name": "Primary 3",
+					"color": "#84C5F4"
+				},
+				{
+					"slug": "primary-4",
+					"name": "Primary 4",
+					"color": "#62B0E8"
+				},
+				{
+					"slug": "primary-5",
+					"name": "Primary 5",
+					"color": "#4098D7"
+				},
+				{
+					"slug": "primary-6",
+					"name": "Primary 6",
+					"color": "#2680C2"
+				},
+				{
+					"slug": "primary-7",
+					"name": "Primary 7",
+					"color": "#186FAF"
+				},
+				{
+					"slug": "primary-8",
+					"name": "Primary 8",
+					"color": "#0F609B"
+				},
+				{
+					"slug": "primary-9",
+					"name": "Primary 9",
+					"color": "#0A558C"
+				},
+				{
+					"slug": "primary-10",
+					"name": "Primary 10",
+					"color": "#003E6B"
+				},
+				{
+					"_comment": "neutral color is Blue Grey"
+				},
+				{
+					"slug": "neutral-1",
+					"name": "Neutral 1",
+					"color": "#F0F4F8"
+				},
+				{
+					"slug": "neutral-2",
+					"name": "Neutral 2",
+					"color": "#D9E2EC"
+				},
+				{
+					"slug": "neutral-3",
+					"name": "Neutral 3",
+					"color": "#BCCCDC"
+				},
+				{
+					"slug": "neutral-4",
+					"name": "Neutral 4",
+					"color": "#9FB3C8"
+				},
+				{
+					"slug": "neutral-5",
+					"name": "Neutral 5",
+					"color": "#829AB1"
+				},
+				{
+					"slug": "neutral-6",
+					"name": "Neutral 6",
+					"color": "#627D98"
+				},
+				{
+					"slug": "neutral-7",
+					"name": "Neutral 7",
+					"color": "#486581"
+				},
+				{
+					"slug": "neutral-8",
+					"name": "Neutral 8",
+					"color": "#334E68"
+				},
+				{
+					"slug": "neutral-9",
+					"name": "Neutral 9",
+					"color": "#243B53"
+				},
+				{
+					"slug": "neutral-10",
+					"name": "Neutral 10",
+					"color": "#102A43"
+				},
+				{
+					"_comment": "support color is Cyan"
+				},
+				{
+					"slug": "support-1",
+					"name": "support 1",
+					"color": "#E0FCFF"
+				},
+				{
+					"slug": "support-2",
+					"color": "#BEF8FD",
+					"name": "support 2"
+				},
+				{
+					"slug": "support-3",
+					"name": "support 3",
+					"color": "#87EAF2"
+				},
+				{
+					"slug": "support-4",
+					"name": "support 4",
+					"color": "#54D1DB"
+				},
+				{
+					"slug": "support-5",
+					"name": "support 5",
+					"color": "#38BEC9"
+				},
+				{
+					"slug": "support-6",
+					"name": "support 6",
+					"color": "#2CB1BC"
+				},
+				{
+					"slug": "support-7",
+					"name": "support 7",
+					"color": "#14919B"
+				},
+				{
+					"slug": "support-8",
+					"name": "support 8",
+					"color": "#0E7C86"
+				},
+				{
+					"slug": "support-9",
+					"name": "support 9",
+					"color": "#0A6C74"
+				},
+				{
+					"slug": "support-10",
+					"name": "support 10",
+					"color": "#044E54"
+				}
+			]
+		}
+	}
+}
