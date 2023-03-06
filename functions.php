@@ -1,7 +1,25 @@
 <?php
+function custom_block_category($categories, $post)
+{
+    return array_merge(
+
+        array(
+            array(
+                'slug' => 'theme-blocks',
+                'title' => __('Theme Blocks', 'textdomain'),
+            ),
+        ),
+        $categories
+    );
+}
+add_filter('block_categories_all', 'custom_block_category', 10, 2);
+
 function register_acf_blocks()
 {
-    register_block_type(__DIR__ . '/build/blocks/block-1');
+    foreach (glob(get_stylesheet_directory() . '/build/blocks/*/') as $path) {
+
+        register_block_type($path . 'block.json');
+    }
 }
 add_action('init', 'register_acf_blocks', 5);
 
@@ -19,24 +37,6 @@ function add_editor_styles()
     add_editor_style(get_stylesheet_directory_uri() . '/build/theme/index.css');
 }
 add_action('admin_init', 'add_editor_styles');
-
-function custom_block_category($categories, $post)
-{
-    return array_merge(
-
-        array(
-            array(
-                'slug' => 'custom',
-                'title' => __('Custom Blocks', 'textdomain'),
-            ),
-        ),
-        $categories
-    );
-}
-add_filter('block_categories_all', 'custom_block_category', 10, 2);
-
-
-
 
 
 // Define path and URL to the ACF plugin.
