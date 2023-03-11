@@ -190,11 +190,69 @@
 					"fontFamily": "Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
 					"slug": "mono",
 					"name": "Monospace"
+				},
+				{
+					"fontFamily": "\"Oswald\"",
+					"name": "Oswald, sans-serif",
+					"slug": "oswald",
+					"fontFace": [
+						{
+							"fontFamily": "\"Oswald\"",
+							"fontWeight": "100 200 300 400 500 600 700 800 900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": ["file:./public/fonts/Oswald-VariableFont.ttf"]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Montserrat\"",
+					"name": "Montserrat",
+					"slug": "montserrat",
+					"fontFace": [
+						{
+							"fontFamily": "\"Montserrat\"",
+							"fontWeight": "100 200 300 400 500 600 700 800 900",
+							"fontStyle": "normal",
+							"src": ["file:./public/fonts/Montserrat-VariableFont.ttf"]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Raleway\"",
+					"name": "Raleway",
+					"slug": "raleway",
+					"fontFace": [
+						{
+							"fontFamily": "\"Raleway\"",
+							"fontWeight": "100 200 300 400 500 600 700 800 900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": ["file:./public/fonts/Raleway-VariableFont.ttf"]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Inter\"",
+					"name": "Inter",
+					"slug": "inter",
+					"fontFace": [
+						{
+							"fontFamily": "\"Inter\"",
+							"fontWeight": "100 200 300 400 500 600 700 800 900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": ["file:./public/fonts/Inter-VariableFont.ttf"]
+						}
+					]
 				}
 			]
 		}
 	},
 	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--montserrat)"
+		},
 		"color": {
 			"background": "var(--wp--preset--color--white)",
 			"text": "var(--wp--preset--color--neutral-9)"

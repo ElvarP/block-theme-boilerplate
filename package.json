@@ -8,7 +8,7 @@
 		"build": "wp-scripts build src/index.js --output-path=build/theme",
 		"blocks-start": "wp-scripts start --webpack-src-dir=blocks --webpack-copy-php --output-path=build/blocks",
 		"blocks-build": "wp-scripts build --webpack-src-dir=blocks --webpack-copy-php --output-path=build/blocks",
-		"sync": "browser-sync start open: --no-open--proxy \"blue-blockbuster.local\" --reload-delay 200 --files=[\"**/*.css\", \"wp-content/themes/**/*.php\"]",
+		"sync": "browser-sync start open: --no-open--proxy \"glacierthemesv5.local\" --reload-delay 200 --files=[\"**/*.css\", \"wp-content/themes/**/*.php\"]",
 		"develop": "npm-run-all --parallel start blocks-start sync"
 	},
 	"keywords": [],
