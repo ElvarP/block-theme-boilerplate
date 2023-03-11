@@ -31,6 +31,8 @@ function custom_scripts_and_styles()
 }
 add_action('wp_enqueue_scripts', 'custom_scripts_and_styles');
 
+
+
 function add_editor_styles()
 {
     add_theme_support('editor-styles');
@@ -64,3 +66,5 @@ switch (wp_get_environment_type()) {
         add_filter('acf/settings/show_updates', '__return_false', 100);
         break;
 }
+
+include_once(get_stylesheet_directory() . '/inc/acf-editor-palette/plugin.php');
